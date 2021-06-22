@@ -21,43 +21,43 @@
     <title>Frontend Mentor | Calculator app</title>
   </head>
   <body>
-    <div class="wrapper">
       <div class="calculator-container">
         <h2 id="calc">calc</h2>
-        <p>1 2 3</p>
+        <!-- <p>1 2 3</p> -->
         <h2 id="theme">THEME</h2>
         <i class="fas fa-toggle-on"></i>
       </div>
       <!-- Displaying th result -->
-      <div class="display">3456,7778</div>
+      <div   class="display">
+        <p id="display"> 3456,7778</p>
+      </div>
       <!-- Main Calculator -->
       <div class="calculator">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
+        <button value="7">7</button>
+        <button value="8">8</button>
+        <button value="9">9</button>
         <button id="delete-bttn">DEL</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>+</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>-</button>
-        <button>.</button>
-        <button>0</button>
-        <button>/</button>
-        <button>x</button>
+        <button value="4">4</button>
+        <button value="5">5</button>
+        <button value="6">6</button>
+        <button value="+" >+</button>
+        <button value="1" >1</button>
+        <button value="2" >2</button>
+        <button value="3" >3</button>
+        <button value="-" >-</button>
+        <button value="." >.</button>
+        <button value="0" >0</button>
+        <button value="/" >/</button>
+        <button value="*" >x</button>
         <button id="reset-bttn">RESET</button>
-        <button id="equal-bttn">=</button>
+        <button id="equal-bttn" value="=" >=</button>
       </div>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Agbesi Amenyo</a>.
-    </div>
+    <script src="js/calculator.js"></script>
   </body>
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="#">Agbesi Amenyo</a>.
+  </footer>
 </html>
